@@ -31,9 +31,8 @@
 */
 package com.adobe.images
 {
-	import flash.geom.*;
-	import flash.display.*;
-	import flash.utils.*;
+	import flash.display.BitmapData;
+	import flash.utils.ByteArray;
 	
 	/**
 	 * Class that converts BitmapData into a valid JPEG

@@ -33,8 +33,8 @@
 package com.adobe.crypto
 {
 	import com.adobe.utils.IntUtil;
+	
 	import flash.utils.ByteArray;
-	import mx.utils.Base64Encoder;
 	
 	/**
 	 *  US Secure Hash Algorithm 1 (SHA1)
@@ -122,11 +122,11 @@ package com.adobe.crypto
 		private static function hashBlocks( blocks:Array ):ByteArray
 		{
 			// initialize the h's
-			var h0:int = 0x67452301;
-			var h1:int = 0xefcdab89;
-			var h2:int = 0x98badcfe;
-			var h3:int = 0x10325476;
-			var h4:int = 0xc3d2e1f0;
+			var h0:int = int(0x67452301);
+			var h1:int = int(0xefcdab89);
+			var h2:int = int(0x98badcfe);
+			var h3:int = int(0x10325476);
+			var h4:int = int(0xc3d2e1f0);
 			
 			var len:int = blocks.length;
 			var w:Array = new Array( 80 );

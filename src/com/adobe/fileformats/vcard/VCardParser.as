@@ -31,7 +31,8 @@
 */
 package com.adobe.fileformats.vcard
 {
-	import mx.utils.Base64Decoder;
+	import com.adobe.crypto.Base64Decoder;
+	
 	import mx.utils.StringUtil;
 	
 	public class VCardParser
