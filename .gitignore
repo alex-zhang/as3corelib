@@ -13,7 +13,7 @@ profile
 .flexProperties
 .project
 .settings
-bin/*
+
 bin-debug/*
 report/*
 bin-test/*
